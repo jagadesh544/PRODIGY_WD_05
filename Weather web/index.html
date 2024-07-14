@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+        <i class='bx bx-map'></i>
+        <input type="text" placeholder="enter your location">
+        <button class="bx bx-search"></button>
+    </div>
+    <div class="weather-container">
+        <div class="box">
+            <div class="info">
+                <div class="weather"></div>
+                <img src="img/cloud.png" alt="">
+                <p class="temperature">0<span>°C</span></p>
+                <p class="description">Broken cloud</p>
+              </div>
+            </div>
+        </div>
+    <div class="weather-det">
+        <div class="humidity">
+        <i class='bx bx-water'></i>
+        <div class="text">
+        <div class="humidity-info">
+            <span>0%</span>
+        </div>
+    <p>Humidity</p>
+    </div>
+    </div>
+    <div class="wind">
+        <i class='bx bx-wind' ></i>
+        <div class="text">
+        <div class="wind-info">
+            <span>0km/h</span>
+        </div>
+    <p>Wind Speed</p>
+    </div>
+    </div>
+       </div>
+       <div class="not-found">
+        <div class="box">
+          <img src="https://static-00.iconduck.com/assets.00/404-page-not-found-illustration-512x366-mnh3sqtf.png" alt="">
+          <p>oops!  not-found</p>
+        </div>
+       </div>
+       
+    </div>
+    
+       <script src="script.js"></script>
+
+</body>
+</html>
